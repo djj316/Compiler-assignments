@@ -23,7 +23,7 @@ class ListNode inherits Object {
     };
 };
 
--- 队列实现
+-- 队列的实现
 class Queue inherits Object {
     front : ListNode; -- 队首指针
     rear  : ListNode; -- 队尾指针
