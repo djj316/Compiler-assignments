@@ -55,7 +55,7 @@
 
 
 ## 预期运行输出
-编译并运行`Main`类后，控制台将输出以下内容，与测试流程对应：
+运行`Queue.s`后，控制台将输出以下内容，与测试流程对应：
 ```
 初始队列是否为空: 是
 进行入队11,22,33
@@ -70,11 +70,10 @@
 
 
 ## 使用说明
-1. **环境要求**：需使用支持类Java语法（如MiniJava、Java）的编译器或运行环境；
-2. **文件保存**：将代码按类拆分保存（如`ListNode.java`、`Queue.java`、`Main.java`），或合并为单个文件；
-3. **编译运行**：
-   - 编译所有类文件（如`javac ListNode.java Queue.java Main.java`）；
-   - 运行`Main`类（如`java Main`），查看控制台输出验证功能。
+1. **环境要求**：需使用支持cool的编译器或运行环境；
+2. **编译运行**：
+   - 编译Queue.cl,生成可执行文件Queue.s (coolc Queue.cl)。
+   - 运行Queue.s (spim Queue.s)。
 
 
 ## 许可证
